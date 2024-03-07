@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplicação cálculo de Resistência</title>
+</head>
+<body>
+   <form>
+        <div> faixa 01
+            <select  id="faixa01">
+                <option value="0" class="Preta">Preta</option>
+                <option value="1"class="Marrom">Marrom</option>
+                <option value="2"class="Vermelho">Vermelho</option>
+                <option value="3"class="Laranja">Laranja</option>]
+                <option value="4"class="Amarelo">Amarelo</option>
+                <option value="5"class="Verde">Verde</option>
+                <option value="6"class="Azul">Azul</option>
+                <option value="7"class="Violeta">Violeta</option>
+                <option value="8"class="Cinza">Cinza</option>
+                <option value="9"class="Branco">Branco</option>
+            </select>
+            faixa 02
+            
+            <select  id="faixa02">
+                <option value="0" class="Preta">Preta</option>
+                <option value="1"class="Marrom">Marrom</option>
+                <option value="2"class="Vermelho">Vermelho</option>
+                <option value="3"class="Laranja">Laranja</option>]
+                <option value="4"class="Amarelo">Amarelo</option>
+                <option value="5"class="Verde">Verde</option>
+                <option value="6"class="Azul">Azul</option>
+                <option value="7"class="Violeta">Violeta</option>
+                <option value="8"class="Cinza">Cinza</option>
+                <option value="9"class="Branco">Branco</option>
+                </select>
+                faixa03
+                <select  id="faixa03">
+                    <option value="0" class="Preta">Preta</option>
+                    <option value="1"class="Marrom">Marrom</option>
+                    <option value="2"class="Vermelho">Vermelho</option>
+                    <option value="3"class="Laranja">Laranja</option>]
+                    <option value="4"class="Amarelo">Amarelo</option>
+                    <option value="5"class="Verde">Verde</option>
+                    <option value="6"class="Azul">Azul</option>
+                    <option value="7"class="Violeta">Violeta</option>
+                    <option value="8"class="Cinza">Cinza</option>
+                    <option value="9"class="Branco">Branco</option>
+                    </select>
+            multiplicador -
+            <select  id="multi">
+                <option value="1" class="Preta">Preta</option>
+                <option value="10"class="Marrom">Marrom</option>
+                <option value="100"class="Vermelho">Vermelho</option>
+                <option value="1000"class="Laranja">Laranja</option>]
+                <option value="10000"class="Amarelo">Amarelo</option>
+                <option value="1000000"class="Verde">Verde</option>
+                <option value="10000000"class="Azul">Azul</option>
+                <option value="100000000"class="Violeta">Violeta</option>
+                <option value="0.1"class="Dourado">Dourado</option>
+                <option value="0.01"class="Prata">Prateado</option>
+            </select>
+            tolerância -
+            <select  id="tol">
+                <option value="0.01"class="Marrom">Marrom</option>
+                <option value="0.02"class="Vermelho">Vermelho</option>
+                <option value="0.05"class="Verde">Verde</option>
+                <option value="0.0025"class="Azul">Azul</option>
+                <option value="0.001"class="Violeta">Violeta</option>
+                <option value="0.05"class="Dourado">Dourado</option>
+                <option value="0.1"class="Prata">Prateado</option>
+           
+              
+            </select>
+        </div>
+        
+        <button type="button" onclick="calc()"> Calcular </button>
+    </form>
+    <form>
+        <p> <input type="number" id="result" placeholder="resis" readonly></p>
+       
+        <p>pode ir de  <input type="number" id="tol1" placeholder="tolma" readonly></p>
+        <p> ate<input type="number" id="tol2" placeholder="tolmi" readonly></p>
+    </form>
+    <script src="script.js"> </script>
+</body>
+</html>
