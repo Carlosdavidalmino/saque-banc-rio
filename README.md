@@ -175,6 +175,43 @@
                 </div>
             </div>
         </section>
+        <section id="produtos" class="py-5">
+            <div class="container">
+                <h2 class="mb-4 text-center">Nossos Produtos</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img/placa-mae-gigabyte-b550m-k-am4-matx-001.jpg"     height="300px"          class="card-img-top" alt="Produto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Placa mãe</h5>
+                                <p class="card-text">Uma placa muito boa para jogar, programar e muito mais.</p>
+                                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img/processador-amd-ryzen-5-5500-cache-19mb-3-7ghz-4-2ghz-max-turbo-am4-100-100000457box_1647636796_m.jpg" class="card-img-top" alt="Produto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Ryzen 5 4500</h5>
+                                <p class="card-text">Muito bom para quem quer jogar jogos de entrada como CS:GO, GTA 5, etc, e pode fazer uma boa combinção com uma placa de vídeo.</p>
+                                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="img/ssd-kingston-co48u96r0g.webp" class="card-img-top" alt="Produto 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Sdd 240gb</h5>
+                                <p class="card-text">O SSD da Kingston oferece velocidades rápidas de leitura e gravação, melhorando significativamente o desempenho do seu computador. </p>
+                                <a href="#" class="btn btn-primary">Ver detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     
         <section id="empresa" class="py-5 bg-light">
             <div class="container">
